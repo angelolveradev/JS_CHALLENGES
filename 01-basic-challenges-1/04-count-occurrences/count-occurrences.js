@@ -4,12 +4,11 @@ function countOccurrences(str, char) {
         if (str[i] === char) {
             cont++;
         }
-        
     }
     return cont;
+}
 
 
-/*const countOccurrences = (str, char) => str.split(char).length-1;
+/*const countOccurrences = (str, char) => str.split(char).length-1;*/
 
 module.exports = countOccurrences;
-*/
