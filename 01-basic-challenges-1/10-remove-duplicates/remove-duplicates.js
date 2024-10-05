@@ -1,11 +1,15 @@
 function removeDuplicates(array) {
-    let totalchar = array.lenght-1;
+    let totalchar = array.length;
     for(let i = 0; i<totalchar.length; i++){
-        if(array[i] === array[totalchar]){
-            delete(array[i]);
-            totalchar--;
+        for (let j = i+1; j<totalchar; j++){
+            if (array[i] === array [j]){
+                array.splice(j,1);
+                totalchar--;
+                j--;
+            }
         }
-    }
+        }
+
     return array;
 }
 
