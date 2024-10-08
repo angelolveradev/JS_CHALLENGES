@@ -11,6 +11,6 @@ function findMissingNumber(arr) {
   const actualSum = arr.reduce((sum, num) => sum + num, 0);
   // Return the difference between the expected sum and the actual sum
   return expectedSum - actualSum;
-} /*a b*/
+} /*a b c*/
 
 module.exports = findMissingNumber;
