@@ -19,16 +19,27 @@
     // }   
     // return true;
 
+        // function areAllCharactersUnique(str){
+        //     let charSet = new Set();
+
+        //     for (char of str){
+        //         if (!charSet.has(char)){
+        //             charSet.add(char);
+        //         } else 
+        //         return false;
+
+                
+        //     }
+        //     return true;
+        // }
+
         function areAllCharactersUnique(str){
-            let charSet = new Set();
-
-            for (char of str){
-                if (charSet.has(char)){
-                    return false;
-                }
-
-                charSet.add(char);
-            }
-            return true;
+         let newStr = str.split('').sort().join('');
+         for (let i = 0; i<newStr.length - 1; i++){
+            if (newStr[i]===newStr[i+1]){
+                return false;
+            } 
+         }
+         return true;
         }
 module.exports = areAllCharactersUnique;
