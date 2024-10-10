@@ -33,7 +33,7 @@ function findMissingLetter(arr) {
     // Update the start char code
     start = current;
   }
-  // If no letter is missingc, rceturn an empty string
+  // If no letter is missingcd, rceturn an empty string
   return '';
 }
 
