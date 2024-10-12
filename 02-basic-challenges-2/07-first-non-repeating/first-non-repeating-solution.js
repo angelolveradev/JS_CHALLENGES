@@ -14,7 +14,7 @@ function findFirstNonRepeatingCharacter(str) {
     }
   }
 
-  // If no non-repeating chaaracter iss found, return null
+  // If no non-repeating chaaracter isas found, return null
   return null;
 }
 
