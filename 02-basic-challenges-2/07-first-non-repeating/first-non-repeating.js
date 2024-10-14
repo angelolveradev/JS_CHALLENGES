@@ -1,15 +1,15 @@
 function findFirstNonRepeatingCharacter(str) {
-    const charObject = {};
+    const charObject = {}
 
     for (const char of str){
-        charObject[char] = (charObject[char] || 0) + 1;
-    }   
+        charObject[char] = ((charObject[char] || 0) + 1);
+    }
 
     for (const char of str){
-        if (charObject[char]=== 1) {
+        if (charObject[char] === 1){
             return char;
         }
-    } 
-    return null;   
+    }
+    return null;
 }
 module.exports = findFirstNonRepeatingCharacter;
