@@ -1,9 +1,14 @@
+// function formatPhoneNumber(numbers) {
+//     const codeArea = numbers.slice(0,3).join('');
+//     const prefix = numbers.slice(3,6).join('');
+//     const lineNumber = numbers.slice(6).join('');
+
+//     return `(${codeArea}) ${prefix}-${lineNumber}  `
+// }
+
 function formatPhoneNumber(numbers) {
-    const codeArea = numbers.slice(0,3).join('');
-    const prefix = numbers.slice(3,6).join('');
-    const lineNumber = numbers.slice(6).join('');
+    const formatedNumber = numbers.join('');
 
-    return `(${codeArea}) ${prefix}-${lineNumber}  `
+    return `(${formatedNumber.substring(0,3)}) ${formatedNumber.substring(3,6)}-${formatPhoneNumber.substring(6)}  `
 }
-
 module.exports = formatPhoneNumber;

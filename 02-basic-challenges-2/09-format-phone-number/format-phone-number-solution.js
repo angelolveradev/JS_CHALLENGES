@@ -16,10 +16,7 @@ function formatPhoneNumber(numbers) {
   // Join all the numbers together
   const formatted = numbers.join('');
   // Return the formatted phone number
-  return `(${formatted.substring(0, 3)}) ${formatted.substring(
-    3,
-    6
-  )}-${formatted.substring(6)}`;
+  return `(${formatted.substring(0, 3)}) ${formatted.substring(3,6)}-${formatted.substring(6)}`;
 }
 
 // Solution 3
