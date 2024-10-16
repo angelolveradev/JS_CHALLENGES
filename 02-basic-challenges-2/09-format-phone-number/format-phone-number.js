@@ -4,7 +4,7 @@
 //     const lineNumber = numbers.slice(6).join('');
 
 //     return `(${codeArea}) ${prefix}-${lineNumber}  `
-// }
+// } aaa
 
 function formatPhoneNumber(numbers) {
     const formatedNumber = numbers.join('');
