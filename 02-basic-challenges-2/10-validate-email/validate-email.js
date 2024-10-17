@@ -16,5 +16,5 @@ function validateEmail(email) {
 
     return true;
 }
-//* validate email*//
+//* validate email2*//
 module.exports = validateEmail;
