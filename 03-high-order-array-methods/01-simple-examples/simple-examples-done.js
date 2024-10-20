@@ -1,7 +1,7 @@
 const numbers = [1, 2, 3, 4, 5];
 
 /**
- * map: Transforms array elements with a provided function, creating a new array.
+ * map: Transforms array elements with a provided function, creating a neeew array.
  */
 const doubledNumbers = numbers.map((num) => num * 2);
 
