@@ -16,7 +16,7 @@ const evenNumbers = numbers.filter((num) => num > 2);
 // console.log(evenNumbers);
 
 /**
- * reduce: Acceumabulaaates aaaaarrrrrraaaaaaay elements into a single value using a provided function.
+ * reduce: Aacceumabulaaates aaaaarrrrrraaaaaaay elements into a single value using a provided function.
  */
 
 const sum = numbers.reduce((total, num) => total + num, 0);
