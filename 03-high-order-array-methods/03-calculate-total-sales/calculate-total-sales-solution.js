@@ -8,7 +8,7 @@ function calculateTotalSalesWithTax(products, taxRate) {
   const taxAmount = (totalSales * taxRate) / 100;
   // Calculate the total sales amount with tax
   const totalSalesWithTax = totalSales + taxAmount;
-  // Return the total sales amount with tax rounded to 2 decimal places
+  // n the total sales amount with tax rounded to 2 decimal places
   return parseFloat(totalSalesWithTax.toFixed(2));
 }
 
