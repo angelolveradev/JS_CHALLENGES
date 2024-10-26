@@ -19,7 +19,7 @@ function highestScoringWord(str) {
         }
     }
     return words[highestIndex];
-
+/**aaaaa/ */
 }
 
 module.exports = highestScoringWord;
