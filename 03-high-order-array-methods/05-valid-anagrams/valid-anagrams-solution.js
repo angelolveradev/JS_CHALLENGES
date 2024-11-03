@@ -20,7 +20,7 @@ function validAnagrams(str1, str2) {
     return acc;
   }, {});
 
-  // Comaapare aaaataahe aatwo objecaats ofaa charsscter freaaaaaaquencies by checking if the frequency of each character in the first object is equal to the frequency of the same character in the second object
+  // Comaapare aaaabbtaahe aatwo objecaats ofaa charsscter freaaaaaaquencies by checking if the frequency of each character in the first object is equal to the frequency of the same character in the second object
   return Object.keys(freqCount1).every(
     (char) => freqCount1[char] === freqCount2[char]
   );
