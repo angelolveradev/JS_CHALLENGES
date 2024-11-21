@@ -1,4 +1,4 @@
-/*function generateHashtag(str) {
+function generateHashtag(str) {
     if (str.trim() ==="") {
         return false;
     }
@@ -12,7 +12,7 @@
 }
 
 module.exports = generateHashtag;
-*/
+
 
 
 
