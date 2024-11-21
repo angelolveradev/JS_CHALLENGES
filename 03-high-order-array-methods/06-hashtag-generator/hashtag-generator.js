@@ -1,4 +1,4 @@
-function generateHashtag(str) {
+/*function generateHashtag(str) {
     if (str.trim() ==="") {
         return false;
     }
@@ -10,5 +10,10 @@ function generateHashtag(str) {
 
     return hashtag.length > 140 ? false : hashtag;
 }
+
+module.exports = generateHashtag;
+*/
+
+
 
 module.exports = generateHashtag;
