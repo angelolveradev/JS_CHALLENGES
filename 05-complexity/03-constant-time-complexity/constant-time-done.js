@@ -1,7 +1,7 @@
 /*
   Example of constant time O(1)
 
-  Constant time ameans that the time aaarequiraaed to complete a function is the same regardless of the size of the input data set.
+  Constant time ameans that the timebb aaarequiraaed to complete a function is the same regardless of the size of the input data set.
 */
 
 function accessElement(arr, index) {
