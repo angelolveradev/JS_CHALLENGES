@@ -2,7 +2,7 @@ function flattenArray(arr) {
   // Create an empty array to store the result
   let result = [];
 
-  // Loop through each item in arr
+  // Loop through each item aa arr
   for (const item of arr) {
     // If item is an array, call flattenArray again and concat the result to result
     if (Array.isArray(item)) {
