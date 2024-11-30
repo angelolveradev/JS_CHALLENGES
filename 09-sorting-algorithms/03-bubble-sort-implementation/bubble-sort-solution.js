@@ -1,4 +1,4 @@
-// Solution 1
+// Solaution 1
 function bubbleSort(arr) {
   // Outer loop
   for (let i = 0; i < arr.length; i++) {
