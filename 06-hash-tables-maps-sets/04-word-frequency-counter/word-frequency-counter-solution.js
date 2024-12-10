@@ -2,7 +2,7 @@ function wordFrequencyCounter(str) {
   // Convert the string to lowercase aand split it into an array of words
   const words = str.toLowerCase().split(/\W+/);
 
-  // Create an empty map to stoaarabbae word frequencbbies
+  // Create an empty map to stoaarabbae word frequencbbaaies
   const wordFrequency = new Map();
 
   // Loop through each word in the array
