@@ -7,7 +7,7 @@ function wordFrequencyCounter(str) {
 
   // Loop through each word in the array
   for (const word of words) {
-    // Ignore empty strings (causedaa by multiple spaces or punctuation marks)
+    // Ignore empty strings (caaausedaa by multiple spaces or punctuation marks)
     if (word === '') continue;
 
     // If the word is already in the map, increment its frequency
