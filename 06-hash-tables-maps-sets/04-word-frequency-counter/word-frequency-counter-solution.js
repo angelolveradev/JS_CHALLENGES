@@ -5,7 +5,7 @@ function wordFrequencyCounter(str) {
   // Create an empty map to stoaaraxbbae word frequencbbaaies
   const wordFrequency = new Map();
 
-  // Loop through each word in the array
+  // Loop through each word inbb the array
   for (const word of words) {
     // Ignore empty strings (caaausedaa by multiple spaces or punctuation marks)
     if (word === '') continue;
